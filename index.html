@@ -71,19 +71,38 @@
   <main>
     <header>
       <h1>StaticThreads Listing Helper</h1>
-      <p class="summary">StaticThreads Listing Helper is a private seller tool used by the owner/operator of TheStaticThreads to manage their own Etsy shop listings and listing workflow.</p>
+      <p class="summary">StaticThreads Listing Helper is a private seller tool used by the owner/operator of TheStaticThreads to keep the shop's Etsy listings accurate, complete, and ready for buyers.</p>
       <p>Public shop: <a href="https://www.etsy.com/shop/TheStaticThreads">TheStaticThreads on Etsy</a></p>
     </header>
 
     <section>
       <h2>Purpose</h2>
-      <p>This tool is used only for TheStaticThreads shop operations. It helps the shop owner review and maintain their own listings, listing media workflow, listing metadata, inventory/status checks, and draft listing updates.</p>
+      <p>The purpose of this project is to reduce manual listing maintenance for TheStaticThreads while improving listing quality for buyers. The shop sells original print-on-demand apparel and home decor. Listing work includes product titles, descriptions, photos, video readiness, inventory/status checks, and draft updates for the shop's own products.</p>
       <p>This application is not offered to the general public and is not a marketplace app for other sellers.</p>
     </section>
 
     <section>
-      <h2>Data Use</h2>
+      <h2>Core Functionality</h2>
+      <ul>
+        <li>Read TheStaticThreads shop and listing records authorized by the shop owner.</li>
+        <li>Create and update draft listings before seller review.</li>
+        <li>Update the shop's own listing titles, descriptions, tags, prices, quantities, photos, and listing-video readiness after seller approval.</li>
+        <li>Check listing status so inactive, incomplete, or outdated listings can be corrected.</li>
+        <li>Keep a local non-secret record of listing IDs and workflow status for shop operations.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Benefits</h2>
+      <p>For the seller, the app saves time, reduces manual editing errors, and helps keep product information consistent across the catalog.</p>
+      <p>For buyers, the app helps listings stay clearer and more complete, including better product descriptions, more accurate product details, and stronger media readiness.</p>
+      <p>For the Etsy platform, the app supports well-maintained listings and uses Etsy's approved OAuth and Open API flow rather than manual copy-and-paste work.</p>
+    </section>
+
+    <section>
+      <h2>Data Use And Permissions</h2>
       <p>The application only accesses account data authorized by the TheStaticThreads shop owner through Etsy OAuth. Data is used only for owner-operated shop workflows.</p>
+      <p>The first version needs seller listing capabilities only: reading the shop's own listings and creating or updating listings for TheStaticThreads. Order, payment, email, and buyer-message access are not part of the first version.</p>
       <p>Data is not sold or rented. It is used only to support TheStaticThreads listing maintenance.</p>
     </section>
 
